@@ -23,3 +23,15 @@ video {
   height: auto;
   max-width: 100%;
 }
+
+.grid-container {
+  display: grid;
+  background-color: green;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  background-color: white;
+  padding: 1rem;
+  margin: 4px;
+}
