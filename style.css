@@ -27,11 +27,38 @@ video {
 .grid-container {
   display: grid;
   background-color: green;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(11, auto);
+  grid-template-columns: repeat(11, auto);
 }
 
 .grid-item {
   background-color: white;
   padding: 1rem;
   margin: 4px;
+}
+
+.one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.two {
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+.three {
+  grid-column-start: 8;
+  grid-column-end: 12;
+}
+
+.four {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.five {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 8;
 }
