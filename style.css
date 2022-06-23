@@ -39,9 +39,18 @@ video {
   display: grid;
   background-color: black;
   grid-template-columns: 70fr 70fr 70fr 40fr 100fr 70fr 100fr 100fr 60fr;
-  grid-template-rows: 70px 70px 110px 30px 70px 70px 80px 80px 40px 50px;
+  grid-template-rows: 70fr 70fr 110fr 30fr 70fr 70fr 80fr 80fr 40fr 50fr;
   grid-gap: 5px;
-  width: 719px; 
+  position:absolute;
+  top:0;
+  left:0;
+  
+}
+
+.grid-wrapper {
+  width: 100%;
+  padding-top: 100%;
+  background-color: red;
 }
 
 .grid-item {
