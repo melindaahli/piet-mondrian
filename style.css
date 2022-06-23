@@ -28,7 +28,7 @@ video {
   display: grid;
   background-color: green;
   grid-template-columns: repeat(9, 70px);
-  grid-template-rows: repeat(9, 70px);
+  grid-template-rows: repeat(10, 70px);
 }
 
 .grid-item {
@@ -58,7 +58,7 @@ video {
 
 .five {
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 7;
   grid-column-start: 2;
   grid-column-end: 7;
 }
@@ -71,21 +71,70 @@ video {
 }
 .seven {
   grid-row-start: 1;
-  grid-row-end: 8;
+  grid-row-end: 9;
   grid-column-start: 9;
   grid-column-end: 10;
 }
 
 .eight {
   grid-row-start:4;
-  grid-row-end: 7;
+  grid-row-end: 8;
   grid-column-start:1;
   grid-column-end: 1;
 }
 
 .nine {
   grid-row-start: 4;
-  grid-row-end: 6;
+  grid-row-end: 7;
   grid-column-start: 7;
-  grid-column-endP
+  grid-column-end:7;
+}
+
+.ten {
+  grid-row-start:4;
+  grid-row-end: 7;
+  grid-column-start:8;
+  grid-column-end:8;
+}
+
+.eleven {
+  grid-row-start:7;
+  grid-row-end:9;
+  grid-column-start:2;
+  grid-column-end: 5;
+}
+
+.twelve {
+  grid-row-start:7;
+  grid-row-end: 8;
+  grid-column-start:5;
+  grid-column-end: 7;
+}
+
+.thirteen {
+  grid-row-start:7;
+  grid-row-end:7;
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+
+.fourteen {
+  grid-row-start: 8;
+  grid-row-end: 11;
+  grid-column-start:1;
+  grid-column-end: 1;
+}
+
+.fifteen {
+  grid-row-start:8;
+  grid-row-end: 9;
+  grid-column-start:5;
+  grid-column-end: 7;
+}
+
+.sixteen {
+  grid-row-start: 8;
+  grid-row-end: 10;
+  grid-column-start:7;
+  grid-column-end: 9;
 }
