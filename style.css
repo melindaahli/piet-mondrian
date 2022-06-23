@@ -51,6 +51,7 @@ video {
 .three {
   grid-column-start: 7;
   grid-column-end: 9;
+  background-color:#ecce54;
 }
 
 .four {
@@ -63,6 +64,7 @@ video {
   grid-row-end: 7;
   grid-column-start: 2;
   grid-column-end: 7;
+  background-color: #cd3a28;
 }
 
 .six {
@@ -70,6 +72,7 @@ video {
   grid-row-end: 4;
   grid-column-start: 7;
   grid-column-end: 9;
+  background-color:#ecce54;
 }
 .seven {
   grid-row-start: 1;
@@ -83,6 +86,7 @@ video {
   grid-row-end: 8;
   grid-column-start:1;
   grid-column-end: 1;
+  background-color: #c2cfd7;
 }
 
 .nine {
@@ -111,6 +115,7 @@ video {
   grid-row-end: 8;
   grid-column-start:5;
   grid-column-end: 7;
+  background-color: #c2cfd7;
 }
 
 .thirteen {
@@ -125,6 +130,7 @@ video {
   grid-row-end: 11;
   grid-column-start:1;
   grid-column-end: 1;
+  background-color:#ecce54;
 }
 
 .fifteen {
@@ -132,6 +138,7 @@ video {
   grid-row-end: 9;
   grid-column-start:5;
   grid-column-end: 7;
+  background-color: #c2cfd7;
 }
 
 .sixteen {
@@ -139,6 +146,7 @@ video {
   grid-row-end: 10;
   grid-column-start:7;
   grid-column-end: 9;
+  background-color:#1d3781;
 }
 
 .seventeen {
@@ -160,6 +168,7 @@ video {
   grid-row-end: 11;
   grid-column-start:9;
   grid-column-end: 10;
+  background-color: #cd3a28;
 }
 
 .twenty{
