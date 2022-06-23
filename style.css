@@ -26,15 +26,16 @@ video {
 
 .grid-container {
   display: grid;
-  background-color: green;
-  grid-template-columns: 80px 70px 70px 70px 70px 70px 100px 100px 60px;
-  grid-template-rows: repeat(6, 70px) 80px 80px 40px 50px;
+  background-color: black;
+  grid-template-columns: 70px 70px 70px 40px 100px 70px 100px 100px 60px;
+  grid-template-rows: 70px 70px 110px 30px 70px 70px 80px 80px 40px 50px;
+  grid-gap: 5px;
+  width: 720px; 
 }
 
 .grid-item {
-  background-color: white;
+  background-color: #e1e9ec;
   padding: 1rem;
-  margin: 4px;
   text-align: center;
 }
 
