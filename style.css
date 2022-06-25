@@ -6,15 +6,17 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 /* adjust typography defaults */
 body {
-  margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
+margin:0 auto; max-width: 700px;
 }
 
 /* images and videos max out at full width */
@@ -24,9 +26,91 @@ video {
   max-width: 100%;
 }
 
-nav {
-  background-color: red;
+/* .flex-container {
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+} */
+
+h4 {
+  line-height: 50px;
+  margin-top: -45px;
+}
+
+a {
+  margin-bottom: 30px;
+  margin-top: -30px;
+  text-decoration: none;
+  background-color: gray;
+  width: 60px;
+  text-align: center;
+  color: white;
+}
+
+.red-sun {
+  background-image: url(https://media.king5.com/assets/AMAZELABS/images/67784454-d3b2-4870-8626-6b4c1f5f6c39/67784454-d3b2-4870-8626-6b4c1f5f6c39_1920x1080.jpeg);
+}
+
+.red-tree {
+  background-image: url(https://i.etsystatic.com/5272877/r/il/a57b71/438259263/il_fullxfull.438259263_rt7a.jpg);
+  filter: blur(1px);
+}
+
+.yellow-leaves {
+  background-image: url(https://media.istockphoto.com/photos/background-on-an-autumn-theme-picture-id1278038942?b=1&k=20&m=1278038942&s=170667a&w=0&h=XH2PEIaOZ5B0QIDJzs3rUSeZE4ADVykWu8tcGJtRLq8=);
+}
+
+.black-cat {
+  background-image: url(https://media.npr.org/assets/img/2021/08/17/gettyimages-135773550-bb02ff79dd836d6e4170d4bc555423f24fa29d5e-s1100-c50.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px;
   width: 100%;
+  height: 100%;
+}
+
+.black-rose {
+  background-image: url(https://i.pinimg.com/originals/af/6e/63/af6e633f9b5f312a068e5ed23ebc6721.jpg);
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.blue-moon {
+  background-image: url(https://s.abcnews.com/images/Technology/gty_blue_moon_lb_150730_16x9_992.jpg);
+  background-repeat: no-repeat;
+  background-size: 590px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.yellow-duck {
+  background-image: url(https://i.pinimg.com/originals/dd/48/28/dd48284b165f088a16569a749bf511b2.jpg);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  background-position: 50% 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.yellow-flower {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY6F_x5bd-MwFLwKluUECHt6uz9nR3b52HwQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: 10% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.gray-sky {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrcnoTMJL4q29htMU5zJmk6Ss-dR7LgTLL9g&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: 40% 35%;
+  width: 100%;
+  height: 100%;
 }
 
 .grid-container {
@@ -35,7 +119,7 @@ nav {
   grid-template-columns: 70px 70px 70px 40px 100px 70px 100px 100px 60px;
   grid-template-rows: 70px 70px 110px 30px 70px 70px 80px 80px 40px 50px;
   grid-gap: 5px;
-  width: 719px; 
+  width: 719px;
 }
 
 .grid-item {
@@ -57,7 +141,7 @@ nav {
 .three {
   grid-column-start: 7;
   grid-column-end: 9;
-  background-color:#ecce54;
+  background-color: #ecce54;
 }
 
 .four {
@@ -78,7 +162,7 @@ nav {
   grid-row-end: 4;
   grid-column-start: 7;
   grid-column-end: 9;
-  background-color:#ecce54;
+  background-color: #ecce54;
 }
 .seven {
   grid-row-start: 1;
@@ -88,9 +172,9 @@ nav {
 }
 
 .eight {
-  grid-row-start:4;
+  grid-row-start: 4;
   grid-row-end: 8;
-  grid-column-start:1;
+  grid-column-start: 1;
   grid-column-end: 1;
   background-color: #c2cfd7;
 }
@@ -99,35 +183,35 @@ nav {
   grid-row-start: 4;
   grid-row-end: 7;
   grid-column-start: 7;
-  grid-column-end:7;
+  grid-column-end: 7;
 }
 
 .ten {
-  grid-row-start:4;
+  grid-row-start: 4;
   grid-row-end: 7;
-  grid-column-start:8;
-  grid-column-end:8;
+  grid-column-start: 8;
+  grid-column-end: 8;
 }
 
 .eleven {
-  grid-row-start:7;
-  grid-row-end:9;
-  grid-column-start:2;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  grid-column-start: 2;
   grid-column-end: 5;
   background-color: #171715;
 }
 
 .twelve {
-  grid-row-start:7;
+  grid-row-start: 7;
   grid-row-end: 8;
-  grid-column-start:5;
+  grid-column-start: 5;
   grid-column-end: 7;
   background-color: #c2cfd7;
 }
 
 .thirteen {
-  grid-row-start:7;
-  grid-row-end:7;
+  grid-row-start: 7;
+  grid-row-end: 7;
   grid-column-start: 7;
   grid-column-end: 9;
 }
@@ -135,15 +219,15 @@ nav {
 .fourteen {
   grid-row-start: 8;
   grid-row-end: 11;
-  grid-column-start:1;
+  grid-column-start: 1;
   grid-column-end: 1;
-  background-color:#ecce54;
+  background-color: #ecce54;
 }
 
 .fifteen {
-  grid-row-start:8;
+  grid-row-start: 8;
   grid-row-end: 9;
-  grid-column-start:5;
+  grid-column-start: 5;
   grid-column-end: 7;
   background-color: #c2cfd7;
 }
@@ -151,22 +235,22 @@ nav {
 .sixteen {
   grid-row-start: 8;
   grid-row-end: 10;
-  grid-column-start:7;
+  grid-column-start: 7;
   grid-column-end: 9;
-  background-color:#1d3781;
+  background-color: #1d3781;
 }
 
 .seventeen {
   grid-row-start: 9;
-  grid-row-end:11;
+  grid-row-end: 11;
   grid-column-start: 2;
   grid-column-end: 5;
 }
 
 .eighteen {
   grid-row-start: 9;
-  grid-row-end:10;
-  grid-column-start:5;
+  grid-row-end: 10;
+  grid-column-start: 5;
   grid-column-end: 7;
   background-color: #171715;
 }
@@ -174,14 +258,14 @@ nav {
 .nineteen {
   grid-row-start: 8;
   grid-row-end: 11;
-  grid-column-start:9;
+  grid-column-start: 9;
   grid-column-end: 10;
   background-color: #cd3a28;
 }
 
-.twenty{
+.twenty {
   grid-row-start: 10;
   grid-row-end: 11;
-  grid-column-start:5;
+  grid-column-start: 5;
   grid-column-end: 9;
 }
